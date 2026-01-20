@@ -1,4 +1,9 @@
+# importamos time aqui porque desde aqui se va a utilizar
 import time
+
+# desde persona importamos la clase Persona ---
+# de esta menra se refiere menu conoce a Persona pero Persona no conoce a menu
+# de esta manera podemos reutilizar en otros proyectos a la clase Persona
 from persona import Persona
 personas = [] # creamos una lista donde se alojan los datos de cada objeto creado
 
