@@ -20,7 +20,9 @@ class Persona:
         self._apellido = apellido
         self._tel = tel
     
-    #property --- solo lectura de los "self"
+    # property  --- permite acceder a los atributos privados "nombre, apellido, tel>"
+    # como atributos normales sin permitir modificacion
+    # desde fuera de la clase solo leectura
     @property
     def nombre(self):
         return self._nombre
