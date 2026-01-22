@@ -1,3 +1,41 @@
+# Simply Contact Manager (in python)
+
+A Contact Manager desarrollate in python use
+object-oriented programing (OOP).
+
+the proyect objetive is the practice use class, methods,
+encapsulations and basic management data from console.
+
+---
+
+## Functionalities
+
+- Add Contacts
+- Delete Contacts
+- Contacts Lists
+- Interactive Menu console
+
+---
+
+## Project Structure
+
+- `persona.py` → Class Persona (contact data and validation)
+- `menu.py` → Operations and menu logic
+- `main.py` → Program entry point
+
+---
+
+## How to Program Ejecute
+
+1. Clone repositorie
+2. Open a terminal project folder
+3. Run the main file:
+
+```bash
+python main.py
+
+
+--spanish--
 # Agenda en Python (sencilla)
 
 Proyecto de una agenda de contactos desarrollada en Python utilizando
